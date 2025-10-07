@@ -13,9 +13,6 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>AWS_Demo</name>
     <description>AWS_Demo</description>
-    <build>
-        <finalName>app</finalName>
-    </build>
     <url/>
     <licenses>
         <license/>
@@ -46,6 +43,7 @@
     </dependencies>
 
     <build>
+         <finalName>app</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
