@@ -11,4 +11,9 @@ public class TestController {
     public String test(){
         return "Connection is successful!";
     }
+
+    @GetMapping("/health")
+    public String test(){
+        return "Application looks healthy!";
+    }
 }
