@@ -11,6 +11,10 @@ public class TestController {
     public String test(){
         return "Connection is successful!";
     }
+    @GetMapping("/")
+    public String test1(){
+        return "Connection is successful!";
+    }
 
     @GetMapping("/health")
     public String health(){
