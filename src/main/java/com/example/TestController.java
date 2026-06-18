@@ -15,7 +15,7 @@ public class TestController {
     public String test1(){
         return "Service 1 running!";
     }
-     @GetMapping("/check")
+     @GetMapping("/")
     public String test2(){
         return "Connection is successful!";
     }
