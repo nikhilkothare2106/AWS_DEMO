@@ -17,7 +17,7 @@ public class TestController {
     }
      @GetMapping("/")
     public String test2(){
-        return "Connection is successful!";
+        return "Service 1 running!";
     }
 
     @GetMapping("/health")
